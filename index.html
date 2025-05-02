@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="name-block">
+                <h1 class="name">Firstname<br>Surname</h1>
+            </div>
+            <div class="contact-info">
+                <button id="theme-toggle">🌙 Нічна тема</button>
+                <hr>
+                <p>📞 000-0**-**-**</p>
+                <p>📧 examle@gmail.com</p>
+            </div>
+        </div>
+        
+        <hr>
+        
+        <div class="two-columns">
+            <!-- Ліва колонка -->
+            <div class="column">
+                <h2>Досвід</h2>
+                
+                <div>
+                    <h3>Роботи з хмарними сервісами</h3>
+                    <div class="icon-text">
+                        <img src="google-cloud-svgrepo-com.svg" alt="Google Cloud">
+                        <p>Google cloud <a href="https://www.credly.com/badges">Сертифікат</a></p>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3>Робота з базами даних</h3>
+                    <div class="icon-icon">
+                        <img src="Postgresql_elephant.svg" alt="PostgreSQL">
+                        <img src="mysql-logo-svgrepo-com.svg" alt="MySQL">
+                    </div>
+                    <p>Реляційні SQL бази даних:<br>PostgresSQL, MySQL</p>
+                </div>
+                
+                <div>
+                    <h3>Мови програмування</h3>
+                    <div class="icon-icon">
+                        <img src="python.svg" alt="Python">
+                        <img src="cpp.svg" alt="C++">
+                        <img src="bash.svg" alt="Bash">
+                        <img src="php.svg" alt="PHP">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Права колонка -->
+            <div class="column">
+                <div>
+                    <h2>Освіта</h2>
+                    <div class="icon-text">
+                        <img src="mintinstall-education-symbolic.svg" alt="Освіта">
+                        <div>
+                            <p><b>Національний університет</b>
+                            <br>2022 - 2026</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <div>
+                    <h2>Навички</h2>
+                    <h3>Англійська</h3>
+                    <div class="icon-text">
+                        <img src="mintinstall-chat-symbolic.svg" alt="Англійська">
+                        <p><b>Рівень B1-B2</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+    </div>
+    <h2>Коментарі попередніх роботодавців:</h2>
+    <div id="comments-container">Завантаження...</div>
+
+    <!-- Модальне вікно -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Форма зворотного зв’язку</h2>
+        <form action="https://formspree.io/f/xwpovgel" method="POST">
+          <label>Ім’я:
+            <input type="text" name="name" required>
+          </label><br>
+          <label>Email:
+            <input type="email" name="email" required>
+          </label><br>
+          <label>Номер телефону:
+            <input type="tel" name="phone" required>
+          </label><br>
+          <label>Повідомлення:
+            <textarea name="message" required></textarea>
+          </label><br>
+          <button type="submit">Відправити</button>
+        </form>
+      </div>
+    </div>
+
+    <footer id="footer">Test</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
