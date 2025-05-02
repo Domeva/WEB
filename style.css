@@ -4,7 +4,7 @@ body {
     margin: 0;                       /* Нульові зовнішні відступи */
     padding: 0;                      /* Нульові внутрішні відступи */
     line-height: 1.6;               /* Міжрядковий інтервал */
-    background-color: #FFF8DC;
+    background-color: green;
     color: black;
     transition: all 0.3s ease;
 }
